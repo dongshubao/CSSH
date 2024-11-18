@@ -72,7 +72,7 @@ do
         ./configure \
           --host="$HOST" \
           --prefix="$PLATFORM_OUT" \
-          --disable-debug \
+          --enable-debug \
           --disable-dependency-tracking \
           --disable-silent-rules \
           --disable-examples-build \
